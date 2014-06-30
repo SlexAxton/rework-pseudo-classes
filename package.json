@@ -1,0 +1,34 @@
+{
+  "name": "rework-pseudo-classes",
+  "description": "Add companion classes to your pseudo styles for testing/convenience.",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --require should"
+  },
+  "devDependencies": {
+    "rework": "*",
+    "should": "*",
+    "mocha": "*"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SlexAxton/rework-pseudo-classes.git"
+  },
+  "keywords": [
+    "rework",
+    "rework-plugins",
+    "psuedoselector",
+    "css",
+    "preprocess"
+  ],
+  "author": "Alex Sexton",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/SlexAxton/rework-pseudo-classes/issues"
+  },
+  "homepage": "https://github.com/SlexAxton/rework-pseudo-classes"
+}

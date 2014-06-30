@@ -1,0 +1,32 @@
+
+/**
+ * Comment.
+ */
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a.pseudo-hover {
+  text-decoration: underline;
+}
+
+a:active,
+a.pseudo-active {
+  font-weight: bold;
+}
+
+a.lol:active,
+a.lol.pseudo-active {
+  font-weight: normal;
+}
+
+a:nth-child(5),
+a.pseudo-nth-child--5-- {
+  border: 1px solid papayawhip;
+}
+
+a::before {
+  color: white;
+}
