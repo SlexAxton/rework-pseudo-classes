@@ -41,8 +41,9 @@ yields
 
 ## Edge cases
 
-* This plugin turns parenthesis into two hyphens `--` so nth-child would look like `.class.pseudo-nth-child--5--`
+* This plugin turns parenthesis into two hyphens `--` so nth-child would look like `.class.pseudo-nth-child--5--`.
 * Pseudo-selectors with two colons are ignored entirely since they're a slightly different thing.
+* Chained psuedo-selectors just become chained classes: `:focus:hover` becomes `.pseudo-focus.pseudo-hover`.
 
 ## Tests
 
