@@ -1,7 +1,7 @@
 {
   "name": "rework-pseudo-classes",
   "description": "Add companion classes to your pseudo styles for testing/convenience.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --require should"
   },
