@@ -27,6 +27,11 @@ a.pseudo-nth-child--5-- {
   border: 1px solid papayawhip;
 }
 
+a:hover:focus,
+a.pseudo-hover.pseudo-focus {
+  font-weight: bold;
+}
+
 a::before {
   color: white;
 }
