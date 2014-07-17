@@ -30,3 +30,11 @@ a:hover:focus {
 a::before {
   color: white;
 }
+
+a:hover::before {
+  border-top-color: blue;
+}
+
+a:active:focus:hover::before {
+  border-bottom-color: blue;
+}

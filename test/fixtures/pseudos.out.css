@@ -35,3 +35,13 @@ a.pseudo-hover.pseudo-focus {
 a::before {
   color: white;
 }
+
+a:hover::before,
+a.pseudo-hover::before {
+  border-top-color: blue;
+}
+
+a:active:focus:hover::before,
+a.pseudo-active.pseudo-focus.pseudo-hover::before {
+  border-bottom-color: blue;
+}
