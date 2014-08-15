@@ -18,7 +18,10 @@ $ npm install rework-pseudo-classes
 
 ```js
 rework(css)
-  .use(pseudoclasses())
+  .use(pseudoclasses({
+    blacklist: [], // default contains ‘:root’.
+    allCombinations: true // default is false. If true, will output CSS with all combinations of pseudo styles/pseudo classes.
+  }))
   .toString();
 ```
 

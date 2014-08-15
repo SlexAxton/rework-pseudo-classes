@@ -1,0 +1,66 @@
+
+/**
+ * Comment.
+ */
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a.pseudo-hover {
+  text-decoration: underline;
+}
+
+a:active,
+a.pseudo-active {
+  font-weight: bold;
+}
+
+a.lol:active,
+a.lol.pseudo-active {
+  font-weight: normal;
+}
+
+a:nth-child(5),
+a.pseudo-nth-child--5-- {
+  border: 1px solid papayawhip;
+}
+
+a:hover:focus,
+a.pseudo-focus:hover,
+a.pseudo-hover:focus,
+a.pseudo-focus.pseudo-hover {
+  font-weight: bold;
+}
+
+a::before {
+  color: white;
+}
+
+a:hover::before,
+a.pseudo-hover::before {
+  border-top-color: blue;
+}
+
+a:active:focus:hover::before,
+a.pseudo-hover:active:focus::before,
+a.pseudo-focus:active:hover::before,
+a.pseudo-hover.pseudo-focus:active::before,
+a.pseudo-active:focus:hover::before,
+a.pseudo-hover.pseudo-active:focus::before,
+a.pseudo-focus.pseudo-active:hover::before,
+a.pseudo-hover.pseudo-focus.pseudo-active::before {
+  border-bottom-color: blue;
+}
+
+a:active:focus + div:hover,
+a.pseudo-focus:active + div:hover,
+a.pseudo-active:focus + div:hover,
+a.pseudo-focus.pseudo-active + div:hover,
+a:active:focus + div.pseudo-hover,
+a.pseudo-focus:active + div.pseudo-hover,
+a.pseudo-active:focus + div.pseudo-hover,
+a.pseudo-focus.pseudo-active + div.pseudo-hover {
+  color: magenta;
+}
