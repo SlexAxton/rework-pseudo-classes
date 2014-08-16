@@ -38,3 +38,7 @@ a:hover::before {
 a:active:focus:hover::before {
   border-bottom-color: blue;
 }
+
+a:active:focus + div:hover {
+  color: magenta;
+}

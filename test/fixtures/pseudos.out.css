@@ -45,3 +45,8 @@ a:active:focus:hover::before,
 a.pseudo-active.pseudo-focus.pseudo-hover::before {
   border-bottom-color: blue;
 }
+
+a:active:focus + div:hover,
+a.pseudo-active.pseudo-focus + div.pseudo-hover {
+  color: magenta;
+}
