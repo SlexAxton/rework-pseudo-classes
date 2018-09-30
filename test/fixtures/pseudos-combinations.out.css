@@ -64,3 +64,8 @@ a.pseudo-active:focus + div.pseudo-hover,
 a.pseudo-focus.pseudo-active + div.pseudo-hover {
   color: magenta;
 }
+
+ul li:first-child,
+ul li.pseudo-first-child {
+  color: white;
+}
