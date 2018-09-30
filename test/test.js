@@ -26,4 +26,16 @@ describe('.pseudoclasses()', function(){
       .should
       .equal(out);
   });
+
+  it('should ignore the blacklisted pseudo selectors', function() {
+    out = read('test/fixtures/pseudos.black-list.out.css', 'utf8').trim();
+    rework(css)
+      .use(pseudoclasses({
+        blacklist: [':nth-child', ':first-child']
+      }))
+      .toString()
+      .trim()
+      .should
+      .equal(out);
+  });
 });

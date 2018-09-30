@@ -50,3 +50,8 @@ a:active:focus + div:hover,
 a.pseudo-active.pseudo-focus + div.pseudo-hover {
   color: magenta;
 }
+
+ul li:first-child,
+ul li.pseudo-first-child {
+  color: white;
+}
